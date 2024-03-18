@@ -1,0 +1,355 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  background-color: #eaeffa;
+  margin: 0;
+  padding: 0;
+}
+.main{
+  background-color: #ffe0b3;
+  height: 60px;
+  width: 100%;
+}
+
+.header-name{
+  height: 50px;
+ font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+   
+}
+.header-name span{
+  height: 15px;
+  font-size: 18px;
+  padding-left: 5px;
+}
+.links{
+  text-decoration: none;
+  color: black;
+}
+.navbar{
+  display: flex; 
+  justify-content: space-between;
+   align-items: center;
+   background-color: white;
+   height: 70px;
+   width: 100%;
+   box-shadow:  0 1px  5px gray;
+ 
+}
+.brand-logo{
+  width:40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 100px;
+}
+.brand-title{
+ margin-right: auto;
+  font-size: 22px;
+ color: #6b6b47;
+ font-family: Arial, Helvetica, sans-serif;
+ }
+.search{
+   margin-right: 20px;
+   width: 300px;
+  }
+
+.srch{
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  background: white;
+  font-family: 'Arial';
+  border: 1px  solid grey;
+  border-radius: 5px;
+  padding: 10px;
+}
+.menu-right{
+  display: flex; 
+  list-style: none; 
+  margin-right: 60px; 
+  font-size: 16px;
+  font-family: 'Arial';
+
+ 
+ 
+}
+li a{
+  padding: 10px;
+ text-decoration: none;
+  color: #6b6b47;
+ 
+}  
+
+/*header end  */
+.container{
+ width: 90%;
+ margin: 0 auto;
+ padding: 10px 20px;
+ 
+ }
+  
+.home{
+  display:flex; 
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.home-image{
+ flex: 1;
+ margin-right: 40px;
+ overflow: hidden;
+ display: flex;
+
+}
+.home-image img{
+  width: 400px;
+  height: 400px;
+  display: flex;
+
+ 
+}
+
+
+.home-content{
+ flex: 1;
+ text-align: left;
+ margin-top: 80px;
+ margin-left: 100px;
+}
+.home-content .first{
+  font-size: 35px;
+  margin-bottom: 15px;
+  color: #5c5c3d;
+  font-family: 'Arial';
+}
+.home-content p{
+  font-size: 25px;
+ color: #6b6b47;
+  padding-right: 40px;
+  font-family: 'Arial';
+}
+.btn{
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Arial';
+  background-color: black;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.heading{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+}
+.heading h1{
+  font-size: 30px;
+  color: grey;
+  margin-bottom: 20px;
+  font-family: 'Arial';
+}
+.heading h1 span{
+  background-color: #ffb3b3;
+  color: black;
+  
+}
+
+.courses-card {
+  width: 370px;
+  height: 610px;
+  border: none;
+ margin-bottom: 30px;
+ border-radius: 5px;
+  margin-left:80px;
+  background-color: white;
+  box-shadow: 0 3px 4px 2px grey;
+  display: inline-block;
+}
+.courses-card:hover{
+  box-shadow: 0 5px 7px 2px grey;  
+}
+.courses{
+  width: 370px;
+  border-radius: 5px 5px 0 0;
+}
+.courses-title{
+  font-size: 20px;
+  margin-left: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  font-family: 'Arial';
+  color: gray;
+}
+.courses-description{
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 15px;
+  font-family: 'Arial';
+  color: gray;
+  font-size: 17px;
+}
+.courses-time{
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-family: 'Arial';
+  color: black;
+  font-size: 17px;
+} 
+button .bte{
+  height: 18px;
+  width: 30px;
+  padding-left: 20px;
+  border-radius: 20px;
+  background-color: #d1e0e0;
+  border: none;
+  font-size: 17px;
+} 
+
+.teacher{
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  font-family: 'Arial';
+  color: black;
+  font-size: 17px;
+}
+.teacher span{
+  color:gray;
+  margin-left:30px;
+  font-size:14px;
+  padding-bottom: 2px;
+}
+h2.courses-price{
+  padding-left: 30px; 
+  font-size: 25px;
+  font-family: 'Arial';
+  color:gray;
+}
+.courses-description-last{
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 7px;
+  font-family: 'Arial';
+  color: gray;
+  font-size: 17px;
+}
+
+.btn-now{
+  margin: 10px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-left: 90px;
+ justify-content: center;
+}
+
+.heading-second{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+}
+.heading-second h1{
+  font-size: 30px;
+  color: grey;
+  margin-bottom: 10px;
+  font-family: 'Arial';
+}
+.heading-second span{
+  background-color: #b3ffcc;
+  color: black;
+  }
+  .student-card{
+      width: 370px;
+  height: 120px;
+  border:1px solid #527a7a;
+ margin-bottom: 30px;
+ border-radius: 10px;
+  margin-left:80px;
+  background-color: white;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.5 '';
+
+  }
+  .student-card:hover{
+      border-color: blue;
+      box-shadow:2px 2px 5px 6px #ccccb3;
+
+  }
+  .student-card img{
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+display: inline-block;
+  padding-top: 10px;
+ }
+.students span{
+  font-size: 20px;
+  font-weight: bold;
+margin-left: 5px;
+
+
+font-family: 'Arial';
+color: black;
+
+}
+.students-time{
+ 
+   font-family: 'Arial';
+  color: black;
+  font-size: 15px;
+  flex: 1;
+ text-align: left;
+}
+.students-time span{
+  color: #5c8a8a;
+  font-weight: bold;
+}
+
+.heading-third{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+}
+.heading-third h1{
+  font-size: 30px;
+  color: grey;
+  margin-bottom: 10px;
+  font-family: 'Arial';
+}
+.heading-third span{
+  background-color: #ffbf80;
+  color: black;
+  }
+
+ 
+ 
